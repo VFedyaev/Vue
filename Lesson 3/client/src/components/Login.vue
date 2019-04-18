@@ -1,6 +1,6 @@
 <template>
   <v-layout column>
-    <v-flex xs6 offset-xs3>
+    <v-flex xs6>
       <panel title="Login">
         <v-text-field
           label="Email"
