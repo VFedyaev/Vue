@@ -33,7 +33,6 @@
 
 <script>
 import AuthenticationService from '@/services/AuthenticationService'
-import Panel from '@/components/Panel'
 
 export default {
   data () {
@@ -55,9 +54,6 @@ export default {
       } catch (error) {
         this.error = error.response.data.error
       }
-    },
-    component: {
-      Panel
     }
   }
   // watch: {
