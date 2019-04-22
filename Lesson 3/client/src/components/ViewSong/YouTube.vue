@@ -2,7 +2,7 @@
     <panel title="YouTube Vieo">
         <youtube
         :video-id="youtubeId"
-        :player-width="800"
+        player-width="100%"
         :player-height="330">
         </youtube>
     </panel>
